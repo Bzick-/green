@@ -1,0 +1,62 @@
+/* CSS Document */
+
+#bg-body {
+    background: none repeat scroll 0 0 #D2D2D0;
+    height: 200%;
+    left: -50%;
+    position: fixed;
+    top: -50%;
+    width: 200%;
+}
+#bg-body img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    min-height: 50%;
+    min-width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+* {margin:0; padding:0;}
+#wrapper {
+	position:relative;
+	width:980px;
+	height:auto;
+	margin:0 auto;
+}
+#logo {
+	width:320px;
+	height: 202px;
+	padding-top: 78px;
+}
+#top {
+	width: 401px;
+	height: 119px;
+	background: url(../img/top-bg.png) no-repeat bottom;
+	margin-top: 62px;
+	margin-left: 34px;
+}
+#bg-form {
+	width: 396px;
+	height: 274px;
+	background: url(../img/form-bg.png) no-repeat;
+	margin-top: 22px;
+	margin-left: 34px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+#form .text {
+	width: 334px;
+	height: 52px;
+	background: #669933;
+	color: #fff;	
+	font-family: Arial;
+	font-size: 32px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border-bottom: 1px #bcd3a6 solid;
+}
+#form p {
+	margin-bottom: 20px;
+}

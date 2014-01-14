@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.bcat.bgswitcher.min.js"></script>
+</head>
+
+<body>
+<div id="bg-body">
+</div>
+
+<script type="text/javascript">
+var srcBgArray = ["./img/backgrounds/1.png","./img/backgrounds/2.png","./img/backgrounds/3.png","./img/backgrounds/4.png","./img/backgrounds/5.png","./img/backgrounds/6.png","./img/backgrounds/7.png","./img/backgrounds/8.png"];
+
+$(document).ready(function() {
+  $('#bg-body').bcatBGSwitcher({
+    urls: srcBgArray,
+    alt: 'Full screen background image'
+  });
+});
+</script>
+
+<div id="wrapper">
+
+<div id="logo">
+<a href="#"><img src="img/logo.png" /></a></div>
+
+<div id="top">
+</div>
+<div id="bg-form">
+<form action="#" method="post" id="form">
+<p><input type="text" class="text" name="name" /></p>
+<p><input type="text" class="text" name="email" /></p>
+<p><input type="text" class="text" name="number" /></p>
+</form>
+</div>
+<div id="buttom"><a href="#">отримати дисконтну карту</a></div>
+
+
+</div>
+</body>
+</html>
